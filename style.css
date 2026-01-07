@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", serif;
+}
+
+/* HERO */
+.hero {
+    background: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 56px;
+    letter-spacing: 4px;
+}
+
+.years {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+/* IMAGE + QUOTE */
+.image-quote {
+    background: #c1121f; /* revolutionary red */
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.image-quote img {
+    width: 300px;
+    margin-bottom: 40px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+blockquote {
+    max-width: 700px;
+    margin: auto;
+    font-size: 22px;
+    color: white;
+    line-height: 1.6;
+}
+
+/* BIO */
+.bio {
+    background: black;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.bio h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.bio p {
+    max-width: 750px;
+    margin: 15px auto;
+    line-height: 1.7;
+    font-size: 16px;
+    color: #ddd;
+}
+
+.line {
+    width: 60%;
+    height: 1px;
+    background: gray;
+    margin: 40px auto;
+}
+
+.footer {
+    font-size: 14px;
+    color: #aaa;
+}
